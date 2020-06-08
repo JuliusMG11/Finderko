@@ -1,0 +1,53 @@
+/**
+* POST (ARTICLE)
+*/
+.post {
+	background: $dark;
+	border-radius: 0.75em;
+	padding: 1.1em 1.45em 1.4em;
+
+	.title {
+		margin-bottom: 0.65em;
+	}
+
+
+	.content,
+	footer {
+		font-size: 1rem;
+	}
+}
+
+.full {
+	.content,
+	footer {
+		font-size: 1.2rem;
+	}
+}
+
+
+.time-work,
+.adress-work {
+	position: relative;
+	float: left;
+	width: 50%;
+	display: block;
+	font-size: 0.6em;
+}
+
+.adress-work {
+	height: 3em;
+}
+
+.adress-work {
+	text-align:right;
+
+}
+
+.content {
+	width: 100%;
+}
+
+.post-section {
+	max-width: 100%;
+}
+	
